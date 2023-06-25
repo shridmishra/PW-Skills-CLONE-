@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PW Skills</title>
+
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+    <link rel="icon" href="../src/favicon.ico">
+
+   <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<!-- npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch -->
+
+<body class="bg-slate-900">
+
+
+    <!-- Nav bar goes here -->
+    <nav class="w-full h-[52px] bg-white flex 
+     justify-between px-4 md:px-4 items-center ">
+
+     <div class="">
+        <img class="w-7" src="https://pwskills.com/images/hamburger.svg" alt="">
+     </div>
+
+     <img class=" w-40 h-14 rounded " src="https://pwskills.com/images/PWSkills-main.png" alt="">
+      
+     
+     
+    
+            <div class="grid grid-cols-2 gap-2 content-end">
+                <div class=" md:block pl-2 pr-1 py-1  text-black
+                 font-bold cursor-pointer rounded ">
+                    Login
+                </div>
+                <div class=" md:block px-1 py-1  text-black
+                font-bold cursor-pointer rounded">
+                   SignUp
+                </div>
+            </div>
+
+                <!-- <div class="md:hidden mb-2">
+                    <a class="text-4xl" href="#">&#8801;</a>
+                </div> -->
+
+    </nav>    
+    <!-- navbar ends here -->
+
+
+    <!-- image section starts here  -->
+    <header>
+        <img class="w-full hidden md:block" src="https://cdn.pwskills.com/assets/uploads/banners/63a18cca807628f5968f528a/web.jpg" alt="">
+        <img class="w-full md:hidden " src="https://cdn.pwskills.com/assets/uploads/banners/63a18cca807628f5968f528a/mobile.jpg" alt="">
+    </header>
+    <!-- image section ends here  -->
+
+
+    <!-- our students section starts  -->
+    <div class="h-auto w-full flex flex-wrap flex-col items-center bg-white">
+       <p class=" font-bold text-indigo-600 text-3xl md:text-4xl text-center mt-10">
+       “Pure Hardwork, No Shortcuts!”
+       </p> 
+        <div class="w-36 h-0 border-2 border-yellow-400 mt-2 rounded-2xl md:mt-4 mb-8">
+        </div>
+
+        <div class="flex flex-row">
+         <div class=" w-46  m-10 flex flex-col items-center mb-12 ">
+            <img  class="w-44 h-44" src="https://pwskills.com/images/landing-page/statistics/books-icon.svg" alt="">
+            <p class="text-3xl font-bold mb-3">600+</p>
+            <p class="text-3xl font-bold text-gray-500 ">Different Courses</p>
+         </div>
+         <div class=" w-46 m-10 flex flex-col items-center mb-12 ">
+            <img  class="w-44 h-44" src="https://pwskills.com/images/landing-page/statistics/student-icon.svg" alt="">
+            <p class="text-3xl font-bold mb-3">7000+</p>
+            <p class="text-3xl font-bold text-gray-500 ">Students Enrolled</p>
+         </div>
+         <div class=" w-46 m-10 flex flex-col items-center mb-12 ">
+            <img  class="w-44 h-44" src="https://pwskills.com/images/landing-page/statistics/credit-card-icon.svg" alt="">
+            <p class="text-3xl font-bold mb-3">1000+</p>
+            <p class="text-3xl font-bold text-gray-500 ">Successful Transition</p>
+         </div>
+        </div>
+    </div>
+    <!-- our students section ENDS  -->
+
+
+    <!-- our footer STARTS here  -->
+    <footer class="w-full mb-10 bg-gray-900 px-4 text-white pt-8 flex flex-col flex-wrap md:flex-row md:px-12 justify-between ">
+        <div>
+            <img class="w-45 h-16" src="https://pwskills.com/images/PWSkills-white.png" alt="">
+            <p class="mt-4 mb-0 font-semibold">Email us:</p>
+            <p class="mb-4 mt-0">support@pwskills.com</p>
+
+            <div class="wrapper">
+                <a href="#" class="icon facebook">
+
+                  <span  class="m-1"><i class="fab fa-facebook-f"></i></span>
+                </a>
+                <a href="#" class="icon twitter">
+                  <span class="m-1"><i class="fab fa-twitter"></i></span>
+                </a>
+                <a href="#" class="icon instagram">
+    
+                  <span class="ml-1 mr-2"><i class="fab fa-instagram"></i></span>
+                </a>
+                <a href="#" class="icon github"
+                   <span class="m-2"><i class="fab fa-github"></i></span>
+                </a>
+                <a href="#" class="icon youtube">
+                  <span class="m-2"><i class="fab fa-youtube"></i></span>
+                </a>
+              </div>
+
+            <!-- <img class="w-32 h-32" src="https://pwskills.com/images/iso-9001-2015.svg" alt=""> -->
+        </div>
+        <div>
+            <h2 class="font-bold text-xl mt-4 mb-1">PW Skills</h2>
+            <div class="w-36 h-0 border-b-2 border-yellow-400 mt-2 rounded-2xl md:mt-4 mb-2">
+            </div>
+        <div>
+            <p>About Us</p>
+            <p>FAQs</p>
+            <p>Privacy Policy</p>
+        </div>
+        </div>
+        <div>
+            <h2 class="font-bold text-xl mt-4 mb-1">Links</h2>
+            <div class="w-36 h-0 border-b-2 border-yellow-400 mt-2 rounded-2xl md:mt-4 mb-2">
+            </div>
+        <div>
+            <p>PW Labs</p>
+            <p>Dscord</p>
+            <p>Terms & Services</p>
+        </div>
+        </div>
+        <div>
+            <h2 class="font-bold text-xl mt-4 mb-1">Products</h2>
+            <div class="w-36 h-0 border-b-2 border-yellow-400 mt-2 rounded-2xl md:mt-4 mb-2">
+            </div>
+        <div>
+           <p> PW Skills Lab </p>
+           <p> Job </p>
+           <p> Experience portal </p>
+           <p> Become an affiliate </p>
+        </div>
+        </div>
+    </footer>
+    <!-- our footer ENDS here  -->
+
+
+</body>
+</html>
